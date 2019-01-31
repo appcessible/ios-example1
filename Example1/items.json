@@ -1,0 +1,60 @@
+{
+    "items": [
+        {
+            "details": "This is an iPhone XR.",
+            "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/compare/iphone-compare-models-201809?wid=564&hei=766&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1535588384763",
+            "name": "iPhone XR",
+            "stockLevel": "low"
+        },
+        {
+            "details": "This is an iPhone XS.",
+            "imageURL": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/xs/iphone-xs-select-2018-group?wid=276&hei=446&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1536616752423",
+            "name": "iPhone XS",
+            "stockLevel": "high"
+        }
+    ],
+    "orders": [
+        {
+            "orderDate": "2017-11-16T02:02:55.000-08:00",
+            "items": [
+                {
+                    "name": "iPhone XR"
+                },
+                {
+                    "name": "iPhone XR"
+                },
+                {
+                    "name": "iPhone XR"
+                },
+                {
+                    "name": "AirPods"
+                }
+            ],
+            "status": "accepted",
+            "statusMessage": "Order Accepted"
+        },
+        {
+            "orderDate": "2017-11-16T02:02:55.000-08:00",
+            "items": [
+                {
+                    "name": "iPhone XR"
+                }
+            ],
+            "status": "problem",
+            "statusMessage": "There is a problem, please contact us"
+        },
+        {
+            "orderDate": "2017-11-16T02:02:55.000-08:00",
+            "items": [
+                {
+                    "name": "iPhone XR"
+                },
+                {
+                    "name": "AirPods"
+                }
+            ],
+            "status": "fail",
+            "statusMessage": "Credit card problem, please contact us"
+        }
+    ]
+}
